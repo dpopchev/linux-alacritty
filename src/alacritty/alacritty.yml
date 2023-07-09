@@ -154,7 +154,7 @@ font:
   # value is machine depndent
   # thus its ignored by gitattribute filter
   # utilizing sed to delete lines ending with gitignore comment
-  # size:  
+  # size:
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -401,10 +401,10 @@ font:
   # Default:
   #   - (Linux/BSD/macOS) `$SHELL` or the user's login shell, if `$SHELL` is unset
   #   - (Windows) powershell
-  #shell:
-  #  program: /bin/bash
-  #  args:
-  #    - --login
+  shell:
+   program: /bin/bash
+   args:
+     - --login
   # Startup directory
   #
   # Directory the shell is started in. If this is unset, or `None`, the working
