@@ -154,14 +154,18 @@ font:
   # value is machine depndent
   # thus its ignored by gitattribute filter
   # utilizing sed to delete lines ending with gitignore comment
-  # size:
+  # size: 14
+  size: 14 # gitignore
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
   # spacing.
   offset:
-    x: 0
-    y: -1
+    # utilizing sed to delete lines ending with gitignore comment
+    # x: 0
+    # y: -1
+    x: 0 # gitignore
+    y: -1 # gitignore
     # Glyph offset determines the locations of the glyphs within their cells with
     # the default being at the bottom. Increasing `x` moves the glyph to the
     # right, increasing `y` moves the glyph upward.
