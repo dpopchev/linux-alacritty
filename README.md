@@ -1,8 +1,8 @@
 # linux-alacritty
 
-Configuration to distribute for `alacritty`.
+Configuration for `alacritty`.
 
-## Quickstart
+## Install
 
 ```
 git clone https://github.com/dpopchev/linux-alacritty.git
